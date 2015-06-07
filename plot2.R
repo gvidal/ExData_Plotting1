@@ -17,7 +17,8 @@ plot.new()
 plot(data$times,
       data$Global_active_power, 
       type="l", 
-     ylab="Global Active Power (kilowatts)")
+     ylab="Global Active Power (kilowatts)",
+     xlab="")
 
 # copy the plot into a file
 dev.copy(png,file="plot2.png")

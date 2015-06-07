@@ -11,8 +11,8 @@ data$Global_active_power <- as.numeric(as.character(data$Global_active_power))
 
 
 #Create the plot
-plot.new()
 dev.new()
+plot.new()
 hist(data$Global_active_power, 
         main="Global Active Power", 
         col="red", 
